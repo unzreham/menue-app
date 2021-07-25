@@ -16,7 +16,7 @@ function Navbar(props) {
             <ul className= {isMbile? "nav-links-mobile" : "nav-links" }  onClick = {()=> setMobile(false)}>
             {/* <div className="" id=""> */}
                 <li ><Link className="map" to="/">Home </Link> </li>  
-                <li ><Link className="gallery" to="/menue"> My menue </Link></li>
+                <li ><Link className="gallery" to="/menue"> My menu </Link></li>
                 <li ><Link className="about" to="/search"> Search</Link></li>
                 {/* </div> */}
             </ul>
